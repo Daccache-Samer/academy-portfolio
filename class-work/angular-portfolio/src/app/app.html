@@ -1,0 +1,8 @@
+<app-navbar />
+<router-outlet />
+
+@if (showBackToTop()) {
+  <button class="back-to-top" type="button" (click)="scrollToTop()" aria-label="Back to top">
+    ↑
+  </button>
+}

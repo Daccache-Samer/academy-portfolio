@@ -1,0 +1,26 @@
+#about {
+  position: relative;
+}
+
+.about-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-container {
+  display: flex;
+  gap: 4rem;
+  height: 50%;
+
+  @media screen and (max-width: 1000px) {
+    display: block;
+    height: fit-content;
+  }
+}
+
+.text-container {
+  @media screen and (max-width: 600px) {
+    text-align: justify;
+  }
+}
